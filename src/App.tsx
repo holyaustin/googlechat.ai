@@ -63,7 +63,7 @@ function App() {
   return (
     <div className="h-screen bg-gray-50 flex">
       <div className="flex-1 flex flex-col bg-white">
-        <header className="px-6 py-4 bg-indigo-600 text-white flex items-center justify-between">
+        <header className="px-6 py-4 bg-green-600 text-white flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img
               src="https://images.unsplash.com/photo-1531379410502-63bfe8cdaf6f?w=64&h=64&fit=crop"
@@ -71,7 +71,7 @@ function App() {
               className="w-10 h-10 rounded-full object-cover"
             />
             <div>
-              <h1 className="font-semibold">Jarvis</h1>
+              <h1 className="font-semibold">Tella</h1>
               <p className="text-xs opacity-75">AI Assistant</p>
             </div>
           </div>

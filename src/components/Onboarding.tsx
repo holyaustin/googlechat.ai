@@ -34,7 +34,10 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
   };
 
   return (
-    <div className="min-h-screen bg-indigo-600 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-blue-600 flex flex-col items-center justify-center p-4">
+      <div className="text-white mr-4 pb-14 text-center w-full max-w-md text-4xl font-extrabold">
+        <h1>GoogleChat.AI</h1>
+      </div>
       <div className="bg-white rounded-2xl p-8 w-full max-w-md">
         <h1 className="text-2xl font-bold text-gray-800 mb-6 text-center">
           {step === 1 ? "What's your name?" : "Choose your avatar"}
@@ -79,7 +82,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
           
           <button
             type="submit"
-            className="w-full py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors"
+            className="w-full py-3 bg-blue-600 font-bold text-white rounded-lg hover:bg-indigo-700 transition-colors"
             disabled={step === 1 && !settings.name}
           >
             {step === 1 ? 'Continue' : 'Start Chatting'}

@@ -45,7 +45,7 @@ GoogleChat.ai is deployed on the Akash Network, a decentralized cloud computing 
 
 Join the Conversation: Explore googlechat.ai today and experience the future of search. Whether you're a curious mind, a developer looking to integrate cutting-edge tech, or simply someone seeking more from your online interactions, googlechat.ai invites you to converse, discover, and evolve with us.
 
-Ready to Dive In? Visit <https://googlechatai.vercel.app> to start your conversational journey. For developers and contributors, access our repository at GitHub/googlechat.ai to collaborate and help shape the project's future.
+Ready to Dive In? Visit <https://googlechat-ai.vercel.app/> to start your conversational journey. For developers and contributors, access our repository at GitHub/googlechat.ai to collaborate and help shape the project's future.
 
 ## License
 
