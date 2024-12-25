@@ -67,11 +67,11 @@ function App() {
           <div className="flex items-center gap-3">
             <img
               src="https://images.unsplash.com/photo-1531379410502-63bfe8cdaf6f?w=64&h=64&fit=crop"
-              alt="Jarvis"
+              alt="DomiWiz"
               className="w-10 h-10 rounded-full object-cover"
             />
             <div>
-              <h1 className="font-semibold">Tella</h1>
+              <h1 className="font-semibold">DomiWiz</h1>
               <p className="text-xs opacity-75">AI Assistant</p>
             </div>
           </div>
@@ -95,9 +95,9 @@ function App() {
           ))}
           {isLoading && (
             <div className="flex gap-2 items-center text-gray-500">
-              <div className="w-2 h-2 bg-indigo-600 rounded-full animate-bounce" style={{ animationDelay: '0ms' }} />
-              <div className="w-2 h-2 bg-indigo-600 rounded-full animate-bounce" style={{ animationDelay: '150ms' }} />
-              <div className="w-2 h-2 bg-indigo-600 rounded-full animate-bounce" style={{ animationDelay: '300ms' }} />
+              <div className="w-5 h-5 bg-indigo-600 rounded-full animate-bounce" style={{ animationDelay: '0ms' }} />
+              <div className="w-5 h-5 bg-indigo-600 rounded-full animate-bounce" style={{ animationDelay: '150ms' }} />
+              <div className="w-5 h-5 bg-indigo-600 rounded-full animate-bounce" style={{ animationDelay: '300ms' }} />
             </div>
           )}
           <div ref={messagesEndRef} />

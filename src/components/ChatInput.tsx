@@ -25,14 +25,18 @@ export const ChatInput: React.FC<ChatInputProps> = ({ onSendMessage }) => {
         >
           <Plus size={20} />
         </button>
-        <div className="flex-1 flex items-center bg-gray-100 rounded-full px-4 py-2">
-          <input
-            type="text"
+        <div className="flex-1 flex items-center bg-gray-100 rounded-sm px-4 py-2">
+        <textarea 
+        name="tbox" 
+        //cols="24" 
+        rows='5'
+        wrap="soft"
+            //type="text"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            placeholder="Type your message..."
+            placeholder="Paste article, project or write-up..."
             className="flex-1 bg-transparent outline-none"
-          />
+          ></textarea>
           <button
             type="button"
             className="p-2 text-gray-500 hover:text-gray-700 transition-colors"

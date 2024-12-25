@@ -1,7 +1,7 @@
 import OpenAI from 'openai';
 
 const client = new OpenAI({
-  apiKey: 'sk-jMu61lqLr4C3nHKmtUv7Dg',
+  apiKey: 'sk-Ts_id--nd5BpadKCW8Krug',
   baseURL: 'https://chatapi.akash.network/api/v1',
   dangerouslyAllowBrowser: true
 });
